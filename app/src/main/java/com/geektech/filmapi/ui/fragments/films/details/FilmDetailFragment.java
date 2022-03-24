@@ -61,6 +61,7 @@ public class FilmDetailFragment extends Fragment {
             }
             @Override
             public void onFailure(Call<Film> call, Throwable t) {
+                //add
             }
         });
     }
