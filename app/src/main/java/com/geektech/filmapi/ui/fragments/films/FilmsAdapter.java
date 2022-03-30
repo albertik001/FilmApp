@@ -1,4 +1,4 @@
-package com.geektech.filmapi.ui.fragments.films.film;
+package com.geektech.filmapi.ui.fragments.films;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.geektech.filmapi.data.models.Film;
 import com.geektech.filmapi.databinding.ItemFilmsBinding;
-import com.geektech.filmapi.ui.utils.Onclick;
+import com.geektech.filmapi.utils.Onclick;
 
 import java.util.ArrayList;
 import java.util.List;

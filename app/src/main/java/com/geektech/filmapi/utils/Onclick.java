@@ -1,4 +1,4 @@
-package com.geektech.filmapi.ui.utils;
+package com.geektech.filmapi.utils;
 
 import com.geektech.filmapi.data.models.Film;
 

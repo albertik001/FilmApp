@@ -1,4 +1,4 @@
-package com.geektech.filmapi.ui.fragments.films.film;
+package com.geektech.filmapi.ui.fragments.films;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -11,8 +11,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
-import com.geektech.filmapi.ui.utils.Onclick;
-import com.geektech.filmapi.ui.utils.app.App;
+import com.geektech.filmapi.utils.Onclick;
+import com.geektech.filmapi.utils.app.App;
 import com.geektech.filmapi.data.models.Film;
 import com.geektech.filmapi.databinding.FragmentFilmsBinding;
 
@@ -23,7 +23,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 
-public class FilmsFragment extends Fragment implements Onclick {
+public class  FilmsFragment extends Fragment implements Onclick {
     private FragmentFilmsBinding binding;
     private FilmsAdapter adapter;
 

@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 
 import com.geektech.filmapi.data.models.Film;
 import com.geektech.filmapi.databinding.FragmentFilmDetailBinding;
-import com.geektech.filmapi.ui.utils.app.App;
+import com.geektech.filmapi.utils.app.App;
 
 import java.util.Collections;
 import java.util.List;

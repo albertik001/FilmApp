@@ -1,4 +1,4 @@
-package com.geektech.filmapi.ui.utils.app;
+package com.geektech.filmapi.utils.app;
 
 import android.app.Application;
 
