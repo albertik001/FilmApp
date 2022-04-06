@@ -12,6 +12,11 @@ public class Film {
     String producer;
     @SerializedName("release_date")
     String releaseDate;
+    String image;
+
+    public String getImage() {
+        return image;
+    }
 
     public String getDirector() {
         return director;

@@ -1,11 +1,13 @@
 package com.geektech.filmapi.ui.fragments.films.details;
 
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.geektech.filmapi.data.models.Film;
 import com.geektech.filmapi.databinding.ItemFilmsDetailBinding;
 
@@ -52,6 +54,7 @@ public class DetailsAdapter extends RecyclerView.Adapter<DetailsAdapter.DetailHo
             binding.producer.setText(film.getProducer());
             binding.originalTitle.setText(film.getOriginalTitle());
             binding.releaseData.setText(film.getReleaseDate());
+            Glide.with(binding.getRoot()).load(film.getImage()).into(binding.imageBanner);
         }
     }
 }
